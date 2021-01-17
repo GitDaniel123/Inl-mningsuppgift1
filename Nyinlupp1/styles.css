@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+/* font-family: 'Roboto Slab', serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 16px;
+    color: #626262;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* Help container */
+.container{
+    width: 100%;
+    padding: 0 1rem;
+    margin: auto;
+}
+
+/* NAVBAR TOP START */
+.navbar-top{
+    border-bottom: 1px solid #707070;
+    padding: 0.5rem;
+}
+.navbar-top .container, .navbar .container  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-clock {
+    color: #2BAAEC;
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.navbar-top .container .socialmedia a {
+    margin: 0 0.5rem;
+}
+.navbar {
+    margin: 1.2rem 0;
+    padding: 0.5rem;
+}
+a {
+    color: #2baaec;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #25E6C8;
+}
+
+/* NAVBAR TOP END */
+
+/* Showcase start */
+.bg-gray {
+    background-color: #DEDEDE;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: 0.75rem 2.5rem;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.3s;
+
+}
+.btn:hover{
+    background-color: #2BAAEC;
+}
+.btn-greenish {
+    color: #fff;
+    background-color: #25E6C8;
+    
+}
+
+#showcase .container {
+    display: flex;
+    justify-content: space-between;
+}
+#showcase .container img {
+    height: 500px;
+    margin-top: 1rem;
+}
+#showcase .container .content-box {
+    align-self: center;
+    margin-left: 4rem;
+}
+.content-box > h1 {
+    color: #363636;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.1;
+}
+.content-box > p {
+    font-size: 0.9 rem;
+    margin: 2.5rem 0;
+}
+.navbar .container {
+    align-items: center;
+}
+.navbar-brand img {
+    height: 4rem;
+}
+.navbar-nav{
+    display: flex;
+    /* flex-direction: column; */
+}
+.nav-link {
+    color: #363636;
+     margin: 0.4rem;
+     
+}
+
+.navbar-toggler {
+    font-size: 2.5rem;
+    color: #2BAAEC;
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+/* Section2 */
+.spancolor {
+   color: #2BAAEC;
+}
+.borderbottom {
+    font-size: 2rem ;
+    border-bottom: solid 4px#25E6C8;
+    padding-bottom: 1rem;
+    margin: auto;  
+}
+.content-box2 h3 {
+    color: #363636;
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 1.1;
+    padding: 2rem 0;
+}
+.robotoslab {
+    font-size: 2rem ;
+    padding-bottom: 1rem;
+}
+
+/* Section 3 */
+
+#showcase2 .container {
+    display: flex;
+    
+}
+#showcase2 .container img {
+    height: 500px;
+    margin-top: 1rem;
+    
+}
+#showcase2 .container .content-box {
+    align-self: center;
+    margin-left: 4rem;
+}
+
+.imgimg  img {
+    padding-top: 3rem;
+    
+}
+.padder {
+    padding-bottom: 3rem;
+}
+.status {
+    display: inline-block;
+    margin-right: 2.5rem;
+}
+.numbers{
+    font-size: 1.5rem;
+    color: #2BAAEC;
+}
+.border1{
+    border-bottom: #25E6C8;
+}
+/* Section3 */
+.centered {
+    text-align: center;
+    width: 100%;
+    padding: 7rem 0;
+}
+.border1{
+    border-bottom: #25E6C8;
+}
+.robotoslab1 {
+    font-size: 2rem ;
+    border-bottom: solid 4px#25E6C8;
+    width: 35%;
+    margin: auto;  
+}
+
+ 
+.box6 {
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    margin: 0.7rem;
+    border-radius: 0.5rem;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center;
+    
+}
+.bg-gray {
+    background-color: #F7F7F7;
+}
+.parent{
+    background-color:#F7F7F7;
+    display: flex;
+    justify-content: center;  
+}
+.boxpadd {
+    padding-top: 5rem;
+    padding-bottom: 0.5rem;
+    
+}
+
+.borderrad{
+    border-radius: 50%;
+    color: green;
+}
+
+.tri {
+    height: 100px;
+    width: 100px;
+    background-color: #25E6C8;
+    border-radius: 50%;
+    position: relative;
+    left: 99px;
+    top: 50px;
+}
+.tri:hover {
+    background-color: #2BAAEC;
+    transition-duration: 1s;
+    box-shadow: 0 0 0 7px  #2BAAEC;
+    opacity: 80%;
+    
+
+    
+}
+
+
+.tri2 {
+    height: 100px;
+    width: 100px;
+    background-color: #2BAAEC;
+    border-radius: 50%;
+    position: relative;
+    left: 99px;
+    top: 50px;
+}
+/* Ville byta ut box shadow färgen till#E9E9E9 men det var #000000 som stod i uppgiften.
+ */
+.box6:hover{
+box-shadow: 0px 0px 5px 0px #000000;
+transition: ease-in-out 0.5s;
+}
+.apa {
+    position: relative;
+    top: 20px;
+    left: px;
+
+}
+/* Sektion4 */
+.bg-greyy{
+    background-color: #DEDEDE;
+    
+}
+.bg-blue {
+  background-color: #2BAAEC; 
+  height: 150px; 
+  opacity: 80%;
+  
+}
+
+.spacebooking {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3.5rem;
+    
+}
+
+.btn-white {
+    background-color: white; 
+    color: #2BAAEC;
+    
+}
+.btn2 {
+    
+    padding: 0.75rem 2.5rem;
+    cursor: pointer;
+    border-radius: 8px; 
+    background-color: white;
+    
+}
+.btn2:hover {
+    background-color:  #2BAAEC;
+    
+    
+}
+.btn-white:hover {
+    border: 1px solid white;
+    color: white;
+}
+.parawhite {
+    color: white;
+    font-size: 20px;
+}
+
+.whitee:focus{
+    color: white;
+}
+/* sektion 4 slut */
+
+/* footer */
+.lastcenter {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+footer{
+    background-color: #209adb;
+    height: 50px;
+
+}
+.copycolor {
+    color: #F3FBFF;
+}
+/* Texttype */
+p{
+    color: #626262;
+}
+ #robotoo{
+    font-family: 'Roboto', sans-serif;
+ }
+
+@media(max-width: 560px) {
+    .socialmedia {
+        display: none;
+    }
+    .navbar-nav {
+        display: none;
+    }
+    .timer {
+        display: none;
+        border-bottom: none;
+    }
+    .navbar-top .container, .navbar .container  {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: none;
+    }
+    #showcase .container img {
+        height: 300px;
+    }
+    #showcase .container {
+        display: block;
+        font-size: ;
+    }
+    #showcase .container h1 {
+        font-size: 1.5rem;
+        
+    }
+    #showcase .container p {
+        font-size: 0.7rem;
+        
+    }
+    .btn-greenish {
+        width: 250px;
+    }
+    .navbar-top {
+        border-bottom: none;
+    }
+    .imgimg {
+        display: none;
+    }
+    .content-box h1 {
+        font-size: 1.5rem;
+    }
+    .content-box p {
+        font-size: 0.7rem;
+    }
+    .padder{
+        display: flex;
+    } .container h2{
+        font-size: 1.5rem;
+    }
+    .grid-col {
+        grid-column: auto;
+    }
+    }
+    .parent {
+        display: grid;
+        grid-template-columns: 1/4fr;
+    }
+    #showcase2 .container .content-box {
+        margin: 0;
+    }
+    .patawhite{
+        display: block;
+    }
+    
+@media(min-width: 768px) {
+    
+
+}
+@media (min-width: 1200px) {
+    /* .navbar-nav {
+        flex-direction: row;
+    } */
+    .nav-link {
+        padding: 0 0.5rem;
+    }
+    .container{
+        max-width: 992px;
+    }
+    .navbar-toggler{
+        display: none;
+    }
+    .parent{
+        display: flex;
+        
+    }
+ 
+
+}
